@@ -4,7 +4,13 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            string path = Directory.GetCurrentDirectory();
+
+            DirectoryInfo parentDirectory = Directory.GetParent(path);
+
+            parentDirectory = parentDirectory.Parent.Parent.Parent;
+
+            File.Create($"{parentDirectory}\\.gitignore");
         }
     }
 }
