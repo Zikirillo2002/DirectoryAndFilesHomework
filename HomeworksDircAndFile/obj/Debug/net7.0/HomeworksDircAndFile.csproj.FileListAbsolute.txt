@@ -1,0 +1,15 @@
+D:\github darslar\Directory and Files Homeworks\DirectoryAndFilesHomework\HomeworksDircAndFile\bin\Debug\net7.0\HomeworksDircAndFile.exe
+D:\github darslar\Directory and Files Homeworks\DirectoryAndFilesHomework\HomeworksDircAndFile\bin\Debug\net7.0\HomeworksDircAndFile.deps.json
+D:\github darslar\Directory and Files Homeworks\DirectoryAndFilesHomework\HomeworksDircAndFile\bin\Debug\net7.0\HomeworksDircAndFile.runtimeconfig.json
+D:\github darslar\Directory and Files Homeworks\DirectoryAndFilesHomework\HomeworksDircAndFile\bin\Debug\net7.0\HomeworksDircAndFile.dll
+D:\github darslar\Directory and Files Homeworks\DirectoryAndFilesHomework\HomeworksDircAndFile\bin\Debug\net7.0\HomeworksDircAndFile.pdb
+D:\github darslar\Directory and Files Homeworks\DirectoryAndFilesHomework\HomeworksDircAndFile\obj\Debug\net7.0\HomeworksDircAndFile.csproj.AssemblyReference.cache
+D:\github darslar\Directory and Files Homeworks\DirectoryAndFilesHomework\HomeworksDircAndFile\obj\Debug\net7.0\HomeworksDircAndFile.GeneratedMSBuildEditorConfig.editorconfig
+D:\github darslar\Directory and Files Homeworks\DirectoryAndFilesHomework\HomeworksDircAndFile\obj\Debug\net7.0\HomeworksDircAndFile.AssemblyInfoInputs.cache
+D:\github darslar\Directory and Files Homeworks\DirectoryAndFilesHomework\HomeworksDircAndFile\obj\Debug\net7.0\HomeworksDircAndFile.AssemblyInfo.cs
+D:\github darslar\Directory and Files Homeworks\DirectoryAndFilesHomework\HomeworksDircAndFile\obj\Debug\net7.0\HomeworksDircAndFile.csproj.CoreCompileInputs.cache
+D:\github darslar\Directory and Files Homeworks\DirectoryAndFilesHomework\HomeworksDircAndFile\obj\Debug\net7.0\HomeworksDircAndFile.dll
+D:\github darslar\Directory and Files Homeworks\DirectoryAndFilesHomework\HomeworksDircAndFile\obj\Debug\net7.0\refint\HomeworksDircAndFile.dll
+D:\github darslar\Directory and Files Homeworks\DirectoryAndFilesHomework\HomeworksDircAndFile\obj\Debug\net7.0\HomeworksDircAndFile.pdb
+D:\github darslar\Directory and Files Homeworks\DirectoryAndFilesHomework\HomeworksDircAndFile\obj\Debug\net7.0\HomeworksDircAndFile.genruntimeconfig.cache
+D:\github darslar\Directory and Files Homeworks\DirectoryAndFilesHomework\HomeworksDircAndFile\obj\Debug\net7.0\ref\HomeworksDircAndFile.dll
