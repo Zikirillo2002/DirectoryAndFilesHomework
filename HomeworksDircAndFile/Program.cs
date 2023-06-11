@@ -4,28 +4,26 @@
     {
         static void Main(string[] args)
         {
-            string path1 = "D:\\github darslar\\Lesson006";
-            string path2 = "D:\\github darslar\\Lesson006";
+            string path1 = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.FullName;
 
-            string[] filtr = Directory.GetDirectories(path1, "obj*.");
-            string[] filtrs = Directory.GetDirectories(path2, "bin*.");
-
-            if (!Directory.Exists("D:\\github darslar\\Lesson006\\bin\\") 
-                || !Directory.Exists("D:\\github darslar\\Lesson006\\obj\\"))
+            string[] find = 
             {
-                Console.WriteLine("Bunday papka mavjud emas");
-            }
-            else
-            {
-                foreach (string filtr2 in filtr)
-                {
-                    Console.WriteLine($" ----- {filtr2} ----------");
-                }
+              Path.Combine(path1,"bin"),
+              Path.Combine(path1,"obj")
+            };
 
-                foreach (string filtr3 in filtrs)
+            foreach (string filtr1 in find)
+            {
+                string findDirectory = filtr1;
+
+                if (!Directory.Exists(findDirectory))
                 {
-                    Console.WriteLine($" ----- {filtr3} ----------");
+                    Console.WriteLine("Bunday papka mavjud emas");
+                    break;
                 }
+                        
+                        Console.WriteLine($" ----- {findDirectory} ----------");
+                    
             }
         }
     }
