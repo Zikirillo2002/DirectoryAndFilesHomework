@@ -4,27 +4,24 @@
     {
         static void Main(string[] args)
         {
-            string path = "D:\\github darslar\\Lesson006\\.gitignore\\";
+            string path = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.FullName;
 
-            var directoryInfo = new DirectoryInfo(path);
+            string[] searchFile = Directory.GetFiles(path,"*.exe",SearchOption.AllDirectories);
 
-            FileInfo[] files = directoryInfo.GetFiles("*.docx");
-
-            if (!directoryInfo.Exists || files.Length == 0)
+            if (!Directory.Exists(path) || searchFile.Length == 0)
             {
-                Console.WriteLine("Bunday addresli papka mavjud emas.");
                 Console.WriteLine("Yoki bunday formatdagi fayl mavjud emas.");
 
-                File.Create(path + "\\dokument1.docx");
-                File.Create(path + "\\dokument2.docx");
-                File.Create(path + "\\dokument3.docx");
+                File.Create(path + "\\new project.exe");
 
-                Console.WriteLine(" \\ .docx \\ formatdagi 3 ta fayl yaratildi. ");
+                Console.WriteLine(" \\ new project.exe \\ fayl yaratildi. ");
             }
 
-            foreach (FileInfo fileInfo in files)
+            int i = 1;
+
+            foreach (var file in searchFile)
             {
-                Console.WriteLine($" -- {fileInfo.FullName} --");
+                Console.WriteLine($"{i++}). --- {file} ---");
             }
         }
     }
